@@ -52,6 +52,11 @@ h2 {
   margin: 0 auto;
 }
 
+.pagedescription{
+  margin: 0 auto;
+  padding:0 320px 80px 320px;
+}
+
 .row p {
   margin: 0 auto;
   font-size: 1.2em;
