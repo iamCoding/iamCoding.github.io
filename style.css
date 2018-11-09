@@ -13,7 +13,6 @@ h2 {
   padding: 15px 0 90px 0;
 }
 
-
 .intro {
   margin-bottom: 15px;
 }
@@ -38,9 +37,7 @@ h2 {
 }
 
 /*end image background */
-
 /* container */
-
 .container {
   padding: 190px 0;
 }
@@ -52,9 +49,10 @@ h2 {
   margin: 0 auto;
 }
 
-.pagedescription{
+.pagedescription {
   margin: 0 auto;
-  padding:0 320px 80px 320px;
+  padding: 0 320px 80px 320px;
+  min-width: 500px;
 }
 
 .row p {
@@ -74,6 +72,9 @@ img {
 }
 
 /* skills */
+p {
+  min-width: 200px;
+}
 
 .skills {
   margin: 0 auto;
@@ -101,25 +102,21 @@ footer i {
   font-size: 1.2em;
 }
 
-
-
-
-
-
 /* media queries */
-
-@media (max-width: 575.98px) {
-  .row p {
-    padding: 50px;
-    font-size: 1.2em;
+@media screen and (max-width: 575.98px) {
+  p {
+    color: pink;
   }
-  .myskills+p {
-    display: none;
+
+  .pagedescription {
+    min-width: 1000px;
+    /* margin: 0 auto; */
+    position: relative;
+    right: 200px;
   }
 }
 
-@media (max-width: 767.98px) {}
+@media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 991.98px) {}
 
-@media (max-width: 991.98px) {}
-
-@media (max-width: 1199.98px) {}
+  @media screen (max-width: 1199.98px) {}
