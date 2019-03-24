@@ -13,10 +13,6 @@ h2 {
   padding: 15px 0 90px 0;
 }
 
-.intro {
-  margin-bottom: 15px;
-}
-
 .background-image {
   background-image: url(img/dvlpr.jpg);
   background-position: center top;
@@ -41,8 +37,6 @@ h2 {
 .container {
   padding: 190px 0;
 }
-
-.container .row {}
 
 .thumbnail a img {
   display: block;
@@ -89,7 +83,6 @@ p {
   background-color: #FFF;
   padding-bottom: 290px;
   padding-top: 40px;
-
 }
 
 footer {
@@ -131,8 +124,6 @@ footer i {
     left: 120%
   }
 
-
-
   to {
     -webkit-transform: rotate(0) scale(4);
   }
@@ -144,18 +135,57 @@ footer i {
     left: 120%
   }
 
-
-
   to {
     transform: rotate(0) scale(1);
   }
 }
+
+.slide-left {
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 /* end animation */
+/* ANIMATION FOR SLIDE LEFT */
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
 
 /* media queries */
+@media screen and (max-width: 320.98px) {
+  .container {
+    margin: 1200px;
+  }
+}
+
 @media screen and (max-width: 575.98px) {
   p {
     color: #E47A2E;
+  }
+
+  .container {
+    padding: 190px 0;
+    margin-left: 400px;
   }
 
   .pagedescription {
@@ -168,10 +198,7 @@ footer i {
   .col-sm {
     text-align: center;
     margin-top: 60px;
-
   }
-
-
 }
 
 @media screen and (max-width: 767.98px) {
