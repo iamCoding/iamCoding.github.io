@@ -55,9 +55,10 @@ h2 {
 }
 
 img {
+  max-height: 300px;
   padding-top: 20px;
   width: 50%;
-  height: auto;
+  /* height: auto; */
 }
 
 .portrait {
@@ -74,15 +75,20 @@ p {
   margin: 0 auto;
 }
 
+.icon{
+  max-width: 450px;
+
+}
+
 .row {
-  text-align:
 }
 
 .container-fluid {
   text-align: center;
-  background-color: #FFF;
+  background-color: #fff;
   padding-bottom: 290px;
   padding-top: 40px;
+  /* max-width: 100px; */
 }
 
 footer {
