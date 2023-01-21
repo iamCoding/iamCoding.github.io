@@ -1,0 +1,235 @@
+body {
+  background-color: #FFEBCD;
+  background-image: url(BG/vintage-concrete.png);
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Accent: Color #e64628*/
+
+h1 {
+  background-color: #660000;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+nav {
+  background-color: #FFF;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #660000;
+}
+
+nav a {
+  text-decoration: none;
+  color: #660000;
+}
+
+nav a:hover {
+  color: #FF9933;
+}
+
+nav a:visited {
+  color: #996600;
+}
+
+main {
+  padding-top: 1px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+p {
+  background-color: #fff;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-stretch: extra-expanded
+}
+
+h2 {
+  color: #660000;
+  font-family: 'Roboto Slab', georgia, times new roman, serif;
+  text-shadow: 1px 1px 1px #CCC;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+h3 {
+  font-family: Georgia, "times new roman", serif;
+}
+
+ul {
+  list-style-image: url(images/marker.gif);
+}
+
+dt {
+  color: #972f1d;
+  font-style: oblique;
+}
+
+footer {
+  color: grey;
+  font-family: georiga, "Times New Roman", serif;
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.resort {
+  color: #5C7FA3;
+  font-weight: bold;
+}
+
+.headerimage {
+  background-image: url(IMG/brewery.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  max-width: 1359px;
+  min-width: 500px;
+}
+
+.container2 {
+  margin: auto;
+}
+
+.pour {
+  font-weight: bold;
+  font-size: 19px;
+  color: #660000;
+  /*#8B4513*/
+  padding-left: 5px;
+  font-family: 'Roboto Slab', georgia, times new roman, serif;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 900px;
+  background-color: #FFF;
+  box-shadow: 3px 3px 3px #000033;
+}
+
+/*Gallery*/
+
+.beerpour {
+  text-align: center;
+  margin-bottom: 55px;
+  font-size: 20px;
+  width: 90%;
+  color: #993300;
+  width: 80%;
+}
+
+.IG {
+  margin: auto;
+  width: 60%;
+  border: 3px;
+   padding: 10px;
+}
+
+/* History*/
+
+.history {
+  padding-left: 10px;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-stretch: extra-expanded;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.align-right-wantbeer {
+  float: right;
+  width: 60%;
+}
+
+.camp-image {
+  float: right;
+  text-align: right;
+  height: 5%;
+  width: 5%;
+}
+
+.sdsu {
+  float: right;
+  margin: 20px;
+  padding: 10px 5px 20px 25px;
+  height: 60%;
+}
+
+dd {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+dl {
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+dt {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+/* BEER STYLE */
+
+blockquote {
+  font-family: 'Roboto', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+img {
+  margin: 5px;
+  float: left;
+  width: 40%;
+  height: 40%;
+  float: none;
+  border: 1px solid #ddd;
+}
+
+/* contact */
+
+fieldset {
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.contact {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.center-contact {
+  margin-left: 20px;
+  margin-right: 20px;
+}
